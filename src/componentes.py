@@ -350,3 +350,4 @@ class PotenciometroDigital(Componente):
         return -20 * math.log10(127 / self.posicao)
 
 
+
