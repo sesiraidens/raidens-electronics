@@ -348,3 +348,4 @@ class PotenciometroDigital(Componente):
         if self.posicao == 0:
             return float('-inf')
         return -20 * math.log10(127 / self.posicao)
+
